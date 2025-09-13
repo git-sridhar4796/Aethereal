@@ -1,0 +1,16 @@
+{
+  "name": "project_aethereal",
+  "version": "1.0.0",
+  "description": "A single page responsive website for a drone photography company",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Sridhar S",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  }
+}

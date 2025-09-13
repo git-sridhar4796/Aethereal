@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/input.css" />
+    <script
+      defer
+      src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="../js/main.js" defer></script>
+  </head>
+  <body id="Aethereal">
+    <!-- || HEADER - BRAND & NAVBAR || -->
+
+    <header id="header" class="fixed-top">
+      <div class="container-lg">
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark">
+          <a id="Brand-Logo" class="navbar-brand" href="#"
+            ><h1
+              class="fw-bold header-text-shadow border-bottom border-2 border-primary letter-space"
+            >
+              A<span class="text-primary">e</span>thereal.
+            </h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto text-end gap-2">
+              <li class="nav-item nav-anime">
+                <a class="nav-link nav-underline" href="#services">Services</a>
+              </li>
+              <li class="nav-item nav-anime">
+                <a class="nav-link nav-underline" href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item nav-anime">
+                <a class="nav-link nav-underline" href="#testimonials"
+                  >Testimonials</a
+                >
+              </li>
+              <li class="nav-item nav-anime">
+                <a class="nav-link nav-underline" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- || MAIN || -->
+
+    <main>
+      <!-- || HERO || -->
+
+      <section id="hero" class="hero-container">
+        <section class="video-container">
+          <video
+            src="../img/Hero_video_1280x720.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </section>
+        <section class="hero-content-container">
+          <section class="hero-content ps-2">
+            <h2 class="fw-bold fs-1 hero-text-shadow">
+              Capture the World <br />
+              From Above
+            </h2>
+            <p class="hero-text-shadow text-body fw-bold">
+              Professional Drone Photography and Videography <br />
+              for every moment.
+            </p>
+          </section>
+        </section>
+      </section>
+
+      <!-- || SERVICES || -->
+
+      <section id="services" class="container-lg text-center my-5">
+        <h2 class="fw-bold text-shadow mb-5 py-2 gradient-radial">
+          OUR <span class="text-primary">S</span>ERVICES
+        </h2>
+
+        <!-- || CARDS || -->
+
+        <section
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4"
+        >
+          <!-- CARD 1 -->
+
+          <div class="card card-bg card-width box-shadow border-0 card-anime">
+            <div class="card-body">
+              <i class="bi bi-building" style="font-size: 5rem"></i>
+              <h4 class="card-title">Real Estate</h4>
+              <p class="card-text">
+                Elevate your property listings with stunning aerial visuals. Our
+                professional drone services capture breathtaking high-definition
+                photos and 4K videos that showcase a property's scale, location,
+                and unique features from a dramatic new perspective.
+              </p>
+              <a href="#" class="btn btn-primary text-white box-shdaow"
+                >Know More</a
+              >
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+
+          <div class="card card-bg card-width box-shadow border-0 card-anime">
+            <div class="card-body">
+              <i class="bi bi-calendar-event" style="font-size: 5rem"></i>
+              <h4 class="card-title">Events</h4>
+              <p class="card-text">
+                Capture the entire scope and energy of your special event with
+                dynamic aerial coverage. From weddings and large festivals to
+                corporate gatherings and outdoor concerts, our drone photography
+                and videography provide a unique, cinematic view.
+              </p>
+              <a href="#" class="btn btn-primary text-white box-shadow"
+                >Know More</a
+              >
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+
+          <div class="card card-bg card-width box-shadow border-0 card-anime">
+            <div class="card-body">
+              <i class="fa-solid fa-industry" style="font-size: 7.5rem"></i>
+              <h4 class="card-title">Commercial</h4>
+              <p class="card-text">
+                Transform your commercial projects and brand marketing with
+                professional drone visuals. We deliver high-quality aerial
+                imagery and video for a wide range of industries, including
+                construction, inspections, tourism, and advertising.
+              </p>
+              <a href="#" class="btn btn-primary text-white box-shadow"
+                >Know More</a
+              >
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- || PORTFOLIO || -->
+
+      <section id="portfolio" class="container-lg text-center my-5">
+        <h2 class="fw-bold text-shadow mb-5 py-2 gradient-radial">
+          OUR <span class="text-primary">P</span>ORTFOLIO
+        </h2>
+
+        <!-- || CAROUSEL || -->
+
+        <section
+          id="portfolio-carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner rounded-4 box-shadow">
+            <!-- IMAGES -->
+            <div class="carousel-item active carousel-img-container">
+              <img
+                src="../img/Portfolio_img1.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img2.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img3.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img4.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img5.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img6.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img7.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img8.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img9.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="carousel-item carousel-img-container">
+              <img
+                src="../img/Portfolio_img10.jpg"
+                alt="portfolio-img1"
+                class="img-fluid"
+              />
+            </div>
+
+            <!-- PREVIOUS BTN -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#portfolio-carousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <!-- NEXT BTN -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#portfolio-carousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </section>
+      </section>
+
+      <!-- || TESTIMONIALS || -->
+
+      <section id="testimonials" class="container-lg text-center my-5">
+        <h2 class="fw-bold text-shadow mb-5 py-2 gradient-radial">
+          OUR <span class="text-primary">T</span>ESTIMONIALS
+        </h2>
+
+        <section
+          class="d-flex flex-column justify-content-around align-items-center gap-4"
+        >
+          <!-- TESTIMONIAL 1 -->
+          <div
+            class="card bg-secondary bg-opacity-25 p-2 d-flex flex-column flex-md-row justify-content-center align-items-center card-bg box-shadow testimonial-anime"
+          >
+            <img
+              src="../img/Testimonial_img1.jpg"
+              alt="testimonial_img1"
+              width="200px"
+              height="200px"
+              class="rounded-circle object-fit-cover"
+            />
+            <figure class="card-body testimonial-container">
+              <p class="blockquote text-white py-5">
+                I was absolutely blown away by the aerial footage Aetheral
+                captured for my real estate listing. The video and photos were
+                so crisp and vibrant, they made the property look absolutely
+                stunning from a new perspective.
+              </p>
+              <figcaption class="blockquote-footer fs-4 text-end">
+                <span class="fw-bold">Raghuveer Agarwal,</span> Real Estate
+                Agent
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- TESTIMONIAL 2 -->
+          <div
+            class="card bg-secondary bg-opacity-25 p-2 d-flex flex-column flex-md-row-reverse justify-content-center align-items-center card-bg box-shadow testimonial-anime"
+          >
+            <img
+              src="../img/Testimonial_img2.jpg"
+              alt="testimonial_img1"
+              width="200px"
+              height="200px"
+              class="rounded-circle object-fit-cover"
+            />
+            <figure class="card-body testimonial-container">
+              <p class="blockquote text-white py-5">
+                The team at Aetheral was incredibly professional from start to
+                finish. They were responsive, easy to work with, and took the
+                time to understand exactly what I needed for my project. I
+                highly recommend their services.
+              </p>
+              <figcaption class="blockquote-footer fs-4 text-end">
+                <span class="fw-bold">Lakshmi Nagarajan,</span> Event Planner
+              </figcaption>
+            </figure>
+          </div>
+
+          <!-- TESTIMONIAL 3 -->
+          <div
+            class="card bg-secondary bg-opacity-25 p-2 d-flex flex-column flex-md-row justify-content-center align-items-center card-bg box-shadow testimonial-anime"
+          >
+            <img
+              src="../img/Testimonial_img3.jpg"
+              alt="testimonial_img1"
+              width="200px"
+              height="200px"
+              class="rounded-circle object-fit-cover"
+            />
+            <figure class="card-body testimonial-container">
+              <p class="blockquote text-white py-5">
+                Aetheral helped us capture our annual corporate retreat, and the
+                results were phenomenal.We wanted to showcase the entire event
+                space, and their drone footage provided a breathtaking, sweeping
+                view that simply wouldn't have been possible with ground-level
+                photography. Highly Recommend!!
+              </p>
+              <figcaption class="blockquote-footer fs-4 text-end">
+                <span class="fw-bold">Rakesh S,</span> Business Owner
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </section>
+
+      <!-- || CONTACT & MAP || -->
+
+      <section id="contact" class="conatiner-lg text-center my-5">
+        <h2 class="fw-bold text-shadow mb-5 py-2 gradient-radial">
+          <span class="text-primary">C</span>ONTACT US
+        </h2>
+        <div
+          class="container-lg d-flex flex-column flex-lg-row gap-4 justify-content-center align-items-center justify-content-lg-between"
+        >
+          <!-- CONTACT -->
+
+          <fieldset class="form-md-resize contact-border contact-anime">
+            <h3 class="mb-3 text-underline">Contact Form</h3>
+            <form class="p-3 border-2 border-secondary rounded-3 mb-3">
+              <div class="my-3 row align-items-center">
+                <div class="col-3 text-start">
+                  <label for="name" class="form-label">Name:</label>
+                </div>
+                <div class="col-9">
+                  <input type="text" class="form-control" id="name" />
+                </div>
+              </div>
+              <div class="my-3 row align-items-center">
+                <div class="col-3 text-start">
+                  <label for="phone" class="form-label">Phone:</label>
+                </div>
+                <div class="col-9">
+                  <input type="tel" class="form-control" id="phone" />
+                </div>
+              </div>
+              <div class="my-3 row align-items-center">
+                <div class="col-3 text-start">
+                  <label for="email" class="form-label">Email:</label>
+                </div>
+                <div class="col-9">
+                  <input type="email" class="form-control" id="email" />
+                </div>
+              </div>
+              <div class="my-3 row align-items-start">
+                <div class="col-3 text-start">
+                  <label for="message" class="form-label">Message:</label>
+                </div>
+                <div class="col-9 text-start">
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="5"
+                    cols="40"
+                    placeholder="Your Message Here"
+                    class="rounded w-100"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-start">
+                <button class="btn btn-primary mx-1 text-white box-shadow">
+                  Submit
+                </button>
+                <button class="btn btn-primary mx-1 text-white box-shadow">
+                  Reset
+                </button>
+              </div>
+            </form>
+          </fieldset>
+
+          <!-- LOCATION MAP -->
+
+          <section class="map map-anime">
+            <h3 class="text-center mb-3 text-underline">Location Map</h3>
+            <img
+              src="../img/map_img.png"
+              alt="location map"
+              class="rounded img-fluid"
+            />
+          </section>
+        </div>
+      </section>
+
+      <!-- || FOOTER || -->
+
+      <footer class="bg-black">
+        <div
+          class="container-lg p-2 d-flex flex-column flex-md-row justify-content-between"
+        >
+          <div>
+            <p class="m-0 p-0 fw-bold">Address:</p>
+            <address class="m-0 p-0">
+              Aethereal Co. <br />
+              1st Lane, Mettu Street, <br />
+              Saidapet, Chennai, TN. <br />
+              Tamilnadu, India.
+            </address>
+            <p class="m-0 p-0 fw-bold">
+              Phone:
+              <a href="tel:+9876546576" class="fw-lighter text-white"
+                >9876546576</a
+              >
+            </p>
+            <p class="fw-bold">
+              Email:
+              <a
+                href="mailto:contact@aethereal.com"
+                class="fw-lighter text-white"
+                >contact@aethereal.com</a
+              >
+            </p>
+          </div>
+          <div
+            id="footer-nav"
+            class="d-flex flex-column justify-content-around align-items-end"
+          >
+            <ul class="nav fw-bold">
+              <a href="#" class="nav-link px-2">Home</a>
+              <a href="#services" class="nav-link px-2">Services</a>
+              <a href="#portfolio" class="nav-link px-2">Portfolio</a>
+              <a href="#testimonials" class="nav-link px-2">Testimonials</a>
+              <a href="#contact" class="nav-link px-2">Contact Us</a>
+            </ul>
+            <ul class="d-flex flex-row justify-content-around gap-3 pe-3">
+              <a href="#"><i class="bi bi-facebook fs-2"></i></a>
+              <a href="#"><i class="bi bi-instagram fs-2"></i></a>
+              <a href="#"><i class="bi bi-whatsapp fs-2"></i></a>
+              <a href="#"><i class="bi bi-youtube fs-2"></i></a>
+            </ul>
+            <p class="pe-2">
+              Copyright <span class="fs-5">&copy;</span> All rights reserved
+              <span class="text-primary fs-4">|</span> Aethereal Co.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
